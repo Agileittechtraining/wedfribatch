@@ -1,0 +1,86 @@
+Webapplication --- 
+application that opens with support of browser
+
+Testcomplete
+Katalon Studio
+Tosca Tricentis
+
+support 
+Java
+python
+c#
+ruby
+Jscript
+
+Maven --> Project Object Model [POM] .xml
+
+
+1. Open Browser
+2. Enter the url in browser
+3. Close the Browser
+
+
+2 types of elements
+1. static elements  --> Name , Id
+2. Dynamic elements -->
+
+1. The elements after every refresh changes the value
+2. The elements will not show name / id
+
+Xpaths --> xtended paths -- path that a user travels through html code
+
+1. Relative Xpaths --> travel based on syntax --> >90%
+//*[@id="tblcrtac"]/tbody/tr[3]/td[3]/input
+//*[@id="tblcrtac"]/tbody/tr[9]/td[3]/input
+//*[@id="tblcrtac"]/tbody/tr[32]/td[3]/input
+2. Absolute xpaths --> travel based on tagnames --> >80%
+/html/body/center/form/div/table[2]/tbody/tr[3]/td[3]/input
+
+/html/body/center/form/div/table[2]/tbody/tr[3]/td[3]/input
+
+
+Frameworks - structural ways to represent  a code
+1. keyword driven --> control with keywords
+2. Data driven --> control with data 
+3. Hybrid [keyword + data]
+
+1. Test NG -- Java dependent    - Keyword Driven --> Hybrids
+2. Cucumber -- Any programming language - Keyword Driven --> Hybrids
+
+
+Annotations --> Controls the execution in testng
+
+1. @Test  - write test cases
+2. @BeforeTest - Preconditions
+3. @AfterTest - Postconditions
+###########################
+4. @BeforeClass -- Utilities before start of class
+5. @AfterClass  -- Utilities after end of class
+_________________________________________
+6. @BeforeMethod -- Runs before the method
+7. @AfterMethod  -- Runs after the method
+--------------------------------------
+8. @BeforeSuite -- Runs before the test suite
+9. @AfterSuite --  Runs after the test suite
+---------------------------------------
+ 
+ Concept of assertions
+ 
+ 1. Soft assertion  -- 
+ 2. Hard assertion  -- something needs to be passed mandatorily
+ 
+1. Open URL of "https://www.phptravels.net/"
+2. Click on login
+3. Enter Email and password and click remember me and click login
+4. Click on logout
+
+Excels
+
+
+Source Code management tool
+1. Github
+2. Perforce
+3. SVN subversion 
+
+
+
